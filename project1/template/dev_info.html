@@ -1,0 +1,35 @@
+{% extends 'basic.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Info</title>
+</head>
+<body>
+{% block content %}
+<div class="container-fluid" style="background-image:url('static/img/simple.png');height:auto;width:100%;background-repeat:no-repeat;background-size:cover;background-position: center;" >
+            <div class="row" style="margin-bottom:5%; margin-left:400px;">
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                    <div class="slider_text ">
+                        <div class="backImg">
+                            <div class="profile">
+                            <img src="static/img/simi.jpg" style="width:150px;">
+                                <div class="profileText">
+                                    <h2 style="font-size:20px;width:150px;">Simranjeet Kaur </h2>
+                                    <h3 style="font-size:20px;width:150px;"> Rajpura</h3>
+                                    <h5 style="width:150px;">Patel Institute of Management and Technology<br>
+                                    MCA</h5>
+
+                                    <h4 style="font-size:18px;width:150px;">Mentor's Name:- Mrs. Sipika<br>
+                              Technology Used:- Python</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+{% endblock %}
+</body>
+</html>

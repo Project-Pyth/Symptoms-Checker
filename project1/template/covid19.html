@@ -1,0 +1,61 @@
+{% extends 'basic.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Symptom Checker</title>
+
+
+</head>
+
+<body>
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+
+            <div class="covid_nav">
+                <a href="covid19.html" class="active1">
+                    OVERVIEW
+                </a>
+                <a href="symptoms.html">
+                    SYMPTOMS
+                </a>
+                <a href="prevention.html" >
+                    PREVENTION
+                </a>
+                <a href="treatment.html" >
+                    TREATMENT
+                </a>
+            </div>
+            <div class="covid_text">
+
+                    <b>*</b> The outbreak of Coronavirus disease first surfaced in Wuhan, China – a city with a &nbsp;&nbsp;population of over 11 million.<br>
+                    <b>*</b>The Huanan Seafood Wholesale in this city was found to be the epicenter. It is the local wet &nbsp;&nbsp;market where animals such as bats, snakes, etc. are sold.<br>
+
+                    <b>*</b>After the outbreak, the market was shut down on 1st January 2020, and China imposed a &nbsp;&nbsp;nationwide ban on buying and selling of wild animals in the markets, restaurants and retail &nbsp;&nbsp;places.<br>
+
+                    <b>*</b>Coronavirus disease or COVID-19 is caused by a type of virus called Coronavirus. It is called &nbsp;&nbsp;Corona because of the presence of crown-like spikes on their surfaces and affects the &nbsp;&nbsp;human lungs.<br>
+                    <b>*</b>It is known to be transferred from animals to humans. Other similarly spreading diseases &nbsp;&nbsp;were SARS in 2002 and MERS in 2012.<br>
+
+                    <b>*</b>On 31st December 2019, WHO was notified about pneumonia of unknown causes, but later &nbsp;&nbsp;they found out that Coronavirus was the main cause.<br>
+                <b>*</b>Since the beginning, there have been over 1,430,000 positive cases from almost every &nbsp;&nbsp;country in the world. (Worldometers)<br>
+
+
+                    <b>*</b>Some of the worst-hit nations include China, USA, Italy, Iran, Spain & UK. (Aljazeera)<br>
+
+                    <b>*</b>The outbreak was declared a Public Health Emergency of International Concern on 30th &nbsp;&nbsp;January 2020.<br>
+                    <b>*</b>WHO on March 11, 2020, declared COVID -19 a pandemic
+
+                            <hr style="border-top: 2px solid;">
+                <h3>How it spreads</h3>
+
+                <div class="slider_area" style="background-image:url('static/img/personspread.png');width:100%;background-position:center;background-size:cover;"></div>
+
+            </div>
+                </div>
+            </div>
+
+{% endblock %}
+</body>
+</html>

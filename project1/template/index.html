@@ -1,0 +1,36 @@
+{% extends 'basic.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Symptom Checker</title>
+
+</head>
+<body>
+
+{% block content %}
+        <div class="container-fluid" style="background-image:url('static/img/banner11.png');height:auto;width:100%;background-repeat:no-repeat;background-size:cover;background-position: center;" >
+            <div class="row" style="margin-bottom:5%; margin-left:400px;">
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                    <div class="slider_text ">
+                        <h3> Medical Diagnosis
+                        </h3>
+                        <p>Traditionally,diagnosis has been defined as the <br> art of identifying a disease from its signs and symptoms.</p>
+                        <div class="diagnose" style="color:black;">
+                            {% if user.is_authenticated %}
+                            <a href="bodyloc.html">Diagnose Me</a>
+                            {% else %}
+                            <a href="login.html.html">Diagnose Me</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+{% endblock %}
+</body>
+</html>

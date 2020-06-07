@@ -1,0 +1,86 @@
+.topnav {
+  background-color: ;
+  overflow: hidden;
+  padding-top:30px;
+}
+#main-header{
+background-color;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a.right{
+float:right;
+
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.covid{
+height:50px;width:150px;text-color:black;font-size:20px;
+text-align:center;padding:10px 30px;
+
+}
+
+
+.headimg{
+height:120px;width:200px;
+ }
+.footer_top{
+color:black;
+background-color:;width:100%;height:150px;}
+.footer_img{
+height:100px;width:300px;}
+.footimg{
+height:100px;width:200px;padding-left:40px;
+}
+
+.links{
+color:black;
+margin-top:5%;font-size:22px;}
+.copyright{
+text-align:center;font-size:22px;}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: black;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: black;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: black;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: black;
+}
+*{
+            margin: 0;
+            padding: 0;
+        }
+
+        #map{
+            width: 100vw;
+            height: 100vh;
+        }

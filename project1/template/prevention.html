@@ -1,0 +1,42 @@
+{% extends 'basic.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Symptom Checker</title>
+
+</head>
+<body>
+
+    {% block content %}
+    {% csrf_token %}
+    <div class="container-fluid">
+    <div class="row">
+
+            <div class="covid_nav">
+                <a href="covid19.html" >
+                    OVERVIEW
+                </a>
+                <a href="symptoms.html">
+                    SYMPTOMS
+                </a>
+                <a href="prevention.html" class="active1">
+                    PREVENTION
+                </a>
+                <a href="treatment.html" >
+                    TREATMENT
+                </a>
+            </div>
+            <div class="covid_text">
+                There’s currently no vaccine to prevent coronavirus disease (COVID-19).
+                <hr style="border-top: 2px solid;">
+
+
+                <div class="slider_area" style="background-image:url('static/img/preventioncov.png');width:100%;background-position:center;background-size:cover;"></div>
+            </div>
+                 </div>
+            </div>
+    {% endblock %}
+</body>
+</html>
